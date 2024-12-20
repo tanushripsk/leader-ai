@@ -1,0 +1,44 @@
+/* Hamburger Icon Container */
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.line {
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Animation for when the menu is open */
+.hamburger-icon.open .line-1 {
+  transform: rotate(45deg);
+  position: relative;
+  top: 8px;
+}
+
+.hamburger-icon.open .line-2 {
+  transform: rotate(-45deg);
+  position: relative;
+  bottom: 8px;
+}
+
+/* Menu when opened */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+body {
+  font-family: 'Times New Roman', sans-serif;
+}

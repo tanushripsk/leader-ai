@@ -1,0 +1,11 @@
+.stats-section {
+    background: url('/camera-shoot-focus-black-and-white.jpg') no-repeat center center/cover;
+    height: 500px;
+  }
+  .overlay {
+    z-index: 1;
+  }
+  .stats-section .container {
+    z-index: 2;
+  }
+  
